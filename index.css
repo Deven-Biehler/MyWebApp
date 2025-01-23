@@ -1,0 +1,32 @@
+/* styles.css */
+
+
+
+  
+p {
+color: #333;
+}
+body {
+	font-family: 'Lato', arial, sans-serif;
+	color: #434343;
+	font-size: 16px;
+}
+
+
+/* Header */
+
+.header .profile-content .name {
+	color: #49515a;
+	font-size: 38px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+
+.header .profile-content .desc {
+	color: #778492;
+	font-family: "Lato", arial, sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}

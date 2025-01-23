@@ -1,7 +1,5 @@
 /* styles.css */
 
-
-
   
 p {
 color: #333;
@@ -10,10 +8,35 @@ body {
 	font-family: 'Lato', arial, sans-serif;
 	color: #434343;
 	font-size: 16px;
+	background-image: url("bythewatersofbabylon.jpg");
+	background-color: #cccccc;
 }
 
 
 /* Header */
+
+.header {
+	background-color: #dedede;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.container {
+    display: flex;      /* Enables Flexbox layout */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.profile-content {
+    margin-left: 20px;  /* Adds some space between the image and the text */
+}
+
+.profile-image {
+	margin-left: 20px;
+    border-radius: 50%;  /* Circular crop */
+    width: 150px;        /* Fixed width */
+    height: 150px;       /* Equal height to maintain aspect ratio */
+    object-fit: cover;   /* Ensures the image covers the space without stretching */
+}
+
 
 .header .profile-content .name {
 	color: #49515a;
